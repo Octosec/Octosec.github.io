@@ -1,0 +1,25 @@
+.gallery{
+	.filter{
+		.nav{
+			li{
+				a{
+					color: @heading;
+					background-color: transparent;
+					&.active{
+						color: @highlight;
+					}
+				}
+			}
+		}
+	}
+}
+&.gallery-overlay{
+	.field{
+		color: @heading;
+	}
+}
+.cross{
+	&:before, &:after{
+		background-color: @heading;
+	}
+}

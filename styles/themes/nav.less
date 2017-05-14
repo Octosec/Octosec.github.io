@@ -1,0 +1,81 @@
+@page-border-border-color: fadeout(@highlight, 84%);
+#top-nav&{
+	border-color: @page-border-border-color;
+	.heading;
+	li a{
+		.heading;
+		&:hover{
+			color: inherit;
+		}
+	}
+	.navbar-brand{
+		.heading;
+		&:hover{
+			.heading;
+		}
+	}
+	.nav>li ul{
+		a {
+			.heading;
+			&.active{
+				.highlight;
+			}
+		}
+		.bg;
+		a:hover{
+			background-color: transparent;
+		}
+	}
+	li.open{
+		&>a{
+			.bg-lite;
+		}
+	}
+	.navbar-nav a.active{
+		.highlight;
+	}
+	.navbar-toggle{
+		background-color: transparent !important;
+		border-color: @heading;
+		.icon-bar{
+			background-color: @heading;
+		}
+	}
+}
+&.page-border{
+	border-color: @page-border-border-color;
+	a {
+		color: @heading;
+	}
+}
+.ext-nav a&{
+	.side-title{
+		color: @heading;
+	}
+	.side-label{
+		color: @highlight;
+	}
+	&:hover{
+		.side-title{
+			color: @heading;
+		}
+		.side-label{
+			color: @highlight;
+		}
+	}
+}
+.menu-toggle{
+	span, span:before, span:after{
+		background-color: @heading;
+	}
+	&.navbar-toggle{
+		span, span:before, span:after{
+			background-color: @highlight;
+		}
+	}
+	&.show{
+		span{
+			background-color: transparent;
+		}
+	}
+}

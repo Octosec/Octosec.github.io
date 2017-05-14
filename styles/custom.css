@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'dirtyflamingo';
+	src:
+		url('fonts/dirtyflamingo-webfont.woff2') format('woff2'),
+		url('fonts/dirtyflamingo-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-size: 40px;
+}
+
+.octosec {
+	font-family: 'dirtyflamingo';
+}
+
+.main-logo {
+	font-size: 40px !important;
+}
+
+.font-weight-normal {
+	font-weight: normal !important;
+}
+
+.font-size-20 {
+	font-size: 20px !important;
+}
+
+.font-size-40 {
+	font-size: 40px !important;
+}
