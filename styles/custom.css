@@ -27,3 +27,16 @@
 .font-size-40 {
 	font-size: 40px !important;
 }
+
+.font-weight-bold {
+	font-weight: bold;
+}
+
+.banner-box {
+	font-size: 25px;
+	line-height: 30px;
+}
+
+.banner-box .octosec {
+	font-size: 30px;
+}
